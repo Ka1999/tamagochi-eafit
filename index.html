@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+        <title>Tamagotchi</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="styless.css">
+        <script src="juego.js" defer type="module"></script>
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+		
+	</head>
+	
+	<body>
+            <form name="Tamagotchi">
+
+            <div id="TitleText">
+                <h1>Tamagotchi</h1>
+            </div>
+
+            <div id="SecondaryText">
+                <div id="FeaturedImage">
+                    <p align="Center">
+                        <img id="tamagotchi" src="img/dos-ojos.png"></img>
+                    </p>
+                </div>
+                
+                <div id="Estadistica">
+                    <p align="Center">
+                        Hambre: <progress class="barra-blanca" id="BarraHambre" min="0" max="100" value="100">
+                                </progress>
+                    </p>
+                </div>
+                
+                <div id="Estadistica">
+                    <p align="Center">
+                        Baño:	<progress class="barra-blanca" id="BarraBano" min="0" max="100" value="100" >
+                                    </progress>
+                    </p>
+                </div>
+                
+                <div id="Estadistica">
+                    <p align="Center">
+                        Diversión:	<progress class="barra-blanca" id="BarraDiversion" min="0" max="100" value="100">
+                                </progress>
+                    </p>
+                </div>
+            
+                <div id="Buttons">
+                    <p align="Center">
+                        <input class="Inputs" id="BtnHambre" type="Button" value="Alimentar">
+                        <input class="Inputs" id="BtnBano" type="Button" value="Ir al baño">
+                        <input class="Inputs" id="BtnDiversion" type="Button" value="Jugar">
+                    </p>
+                </div>
+        </div>
+	</body>
+	
+</html>
